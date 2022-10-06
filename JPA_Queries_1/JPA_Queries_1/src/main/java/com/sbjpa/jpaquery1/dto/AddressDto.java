@@ -5,6 +5,15 @@ public class AddressDto {
     private String state;
     private String zip;
 
+    @Override
+    public String toString() {
+        return "AddressDto{" +
+                "city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", zip='" + zip + '\'' +
+                '}';
+    }
+
     public String getCity() {
         return city;
     }

@@ -11,3 +11,4 @@ spring:
     driverClassName: org.postgresql.Driver
 server:
   port: 8181
+
